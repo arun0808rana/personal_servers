@@ -1,0 +1,14 @@
+{
+  "name": "personal_servers",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "preinstall": "npm run install_init_servers && npm run install_youtube_manage_personal_server",
+    "install_init_servers": "cd init_servers && npm install",
+    "install_youtube_manage_personal_server": "cd youtube-manage-personal-server && npm install"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
